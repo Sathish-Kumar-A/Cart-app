@@ -1,0 +1,83 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    font-size: 2rem;
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+}
+.outerBox{
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow:wrap row;
+    justify-content: center;
+    align-items: center;
+}
+.userTitle{
+    background-color: #C3A9FF;
+    color:white;
+    padding:20px;
+
+}
+.imgBtn{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+.userBox{
+    background-color: white;
+    width:320px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(50,50,50,0.2);
+}
+.btnDiv{
+    display: flex;
+    flex-flow: wrap column;
+}
+.image{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    object-fit: cover;
+}
+.content{
+    display:flex;
+    flex-flow:row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.value{
+    color:teal;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.nameBox{
+    display: flex;
+    margin: 10px;
+
+}
+
+form{
+    display:flex;
+    flex-flow:wrap column;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    padding-top: 25px;
+}
+label{
+    font-size: 20px;
+}
